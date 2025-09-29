@@ -1,0 +1,19 @@
+# Dependency directories
+node_modules/
+
+# Build directory for wasm and js
+example_js/
+*.wasm
+
+# Trusted setup files (very large)
+*.ptau
+
+# Keys and witness files
+*.zkey
+witness.wtns
+verification_key.json
+proof.json
+public.json
+
+# Circom source code folder
+circom/
